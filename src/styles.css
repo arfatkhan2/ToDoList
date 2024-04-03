@@ -1,0 +1,96 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+
+  /* TaskList.css */
+.bold {
+    font-weight: bold;
+  }
+
+  .add-task-button {
+    margin-bottom: 6px; 
+     
+    
+  }
+  
+
+  body {
+    background-color: #333 !important; 
+    color:white/* Dark grey background color */
+  }
+  h1{
+    color: rgb(255, 255, 255) !important;
+    font-family: 'fantasy', cursive;
+  }
+
+
+  input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 22px; /* Set border radius to make the corners rounded */
+  }
+
+
+
+  /* CSS for button with bubble animation */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 25px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transition: all 0.6s ease;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.btn:hover::before {
+  width: 0;
+  height: 0;
+  opacity: 1;
+}
