@@ -18,3 +18,6 @@ Start the development server:
 npm start
 
 This command will start the development server and open the application in your default web browser. If it doesn't open automatically, you can access it at http://localhost:3000.
+
+
+***npm install causes dependency errors with the redux-persist , make sure to use npm start --force ***
