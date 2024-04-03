@@ -5,7 +5,8 @@ git clone https://github.com/arfatkhan2/todolist.git
 cd todolist
 
 3.Install dependencies:
-npm install   //if you face problems while using the npm command , use --force flag  at the end of npm command to fix it .
+npm install   
+***if you face problems while using the npm command , use --force flag  at the end of npm command to fix it .***
 
 4. Running the App
 Start the development server:
