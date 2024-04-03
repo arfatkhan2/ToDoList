@@ -1,8 +1,8 @@
 1. Clone the repository:
-git clone https://github.com/arfatkhan2/todolist.git
+   git clone https://github.com/arfatkhan2/todolist.git
 
 2.Navigate to the project directory:
-cd todolist
+   cd todolist
 
 3.Install dependencies:
 
