@@ -5,7 +5,8 @@ git clone https://github.com/arfatkhan2/todolist.git
 cd todolist
 
 3.Install dependencies:
-npm install --force 
+
+ npm install --force 
 
 dont forget to use --force with the npm command 
 ***--force flag is added to ensure that any potential issues with dependency resolutions are forcefully resolved during the installation process.***
